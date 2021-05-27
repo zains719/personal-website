@@ -1,0 +1,35 @@
+@import url(//fonts.googleapis.com/earlyaccess/notoserifarmenian.css);
+
+.app {
+    background-color: black;
+    font-family: 'Noto Serif American', serif;
+}
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+.particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.name {
+    font-size: 1.5rem;
+}
+svg {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: -105px;
+
+    &:hover{
+        fill: #FF522C;
+        cursor: pointer;
+    }
+}
