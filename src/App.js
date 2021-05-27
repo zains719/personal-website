@@ -1,5 +1,6 @@
 import './App.scss';
 import React, {Component} from 'react';
+import {Helmet} from 'react-helmet';
 import 'particles.js/particles';
 import Github from './images/Github';
 import LinkedIn from './images/LinkedIn';
@@ -17,6 +18,11 @@ class App extends Component {
 
   render() {
     return (
+      <>
+      <Helmet>
+        <title>Zain Saleem</title>
+      </Helmet>
+
       <div className="app">
         <div className="particles-js" id='particles-js'/>
         <div className="content">
@@ -33,6 +39,7 @@ class App extends Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
 }
