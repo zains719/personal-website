@@ -1,0 +1,25 @@
+.experience-container {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    h1 {
+        font-size: 40px;
+        border-bottom: 4px solid #FF522C;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vericalChanging {
+        margin-top: 100px;
+        color: rgb(26, 26, 26);
+
+        a {
+            font-size: 20px;
+            color: #FF522C;
+            text-decoration: underline;
+        }
+    }
+}

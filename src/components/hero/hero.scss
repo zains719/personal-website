@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+
+  .content {
+    z-index: 1;
+    width: fit-content;
+    height: 250px;
+    margin-top: 300px;
+    position: absolute;
+
+    .button {
+      right: -35%;
+      top: 21%;
+      position: absolute;
+      width: 200px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      background-color: transparent;
+      font-family: "Recursive", sans-serif;
+      color: #ff522c;
+      border: 3px solid #ff522c;
+      font-size: larger;
+      transition: 0.5s;
+
+      &:hover {
+        cursor: pointer;
+        background: #ff522c;
+        color: white;
+        box-shadow: 0 0 5px #ff522c, 0 0 25px #ff522c, 0 0 50px #ff522c,
+          0 0 100px #ff522c;
+      }
+    }
+  }
+}
+
+.particles-js {
+  background-color: rgb(26, 26, 26);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
