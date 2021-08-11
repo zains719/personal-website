@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="contact-section">
             <div class="contact-container">
                 <h2>Contact Me</h2>
-                <form autocomplete="off" action="https://formsubmit.co/zain.14saleem@gmail.com" method="POST">
+                <form action="https://formsubmit.co/zain.14saleem@gmail.com" method="POST">
                     <div class="user-box">
                         <input 
                         type="text" 
@@ -45,7 +45,7 @@ const Contact = () => {
                         {_.isEmpty(message) && (
                             <label>Message</label>
                         )}                    </div>
-                    <a href="#">
+                    <a href="/">
                         <span></span>
                         <span></span>
                         <span></span>
