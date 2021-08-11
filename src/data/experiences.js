@@ -6,8 +6,7 @@ export const Experiences = [
         role: "Software Engineer Intern (August 2021 - September 2021)",
         description: [
             "Peerr is an online learning start up, geared towards peer to peer lerning through interactive, custom made quizzes.",
-            "At Perrr, I built a B to C product constructing the front and backend of the web application. This involved utilising\
-            React and Next js, along with Firebase to support database storage and user authentiaction.",
+            "At Perrr, I built a B to C product constructing the front and backend of the web application. This involved utilising React and Next js, along with Firebase to support database storage and user authentiaction.",
             "This allowed me to fully discover the ins and outs of Firebase and experience working with it's NoSQL Firestore database.",
             "I also utilised third party platforms such as Mailchimp and Sendgrid to implement different features within the web app."
         ],
@@ -21,8 +20,7 @@ export const Experiences = [
             "Thatpart is a podcast media platform, that facilitates saving and sharing podcast clips through the ease of a screenshot!",
             "I assisted the development of the web application, by revamping different pages using React and Next js.",
             "Using Three js, I was able to create unique video templates programatically, for the new thatpart studio.",
-            "Executed data science related tasks, e.g: building self generating podcast clips for users through NLP Python libraries,\
-            - involving key word, text summarisation etc",
+            "Executed data science related tasks, e.g: building self generating podcast clips for users through NLP Python libraries - involving key word, text summarisation etc",
             "Also participated in several client calls and marketing strategy meetings aimed to increase user acquisition."
         ],
         link: "https://thatpart.co/",
