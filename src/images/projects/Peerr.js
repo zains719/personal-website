@@ -1,5 +1,5 @@
 export const Peerr = () => {
     return (
-        <img src="/images/projects/peerr.png" />
+        <img alt="" src="/images/projects/peerr.png" />
     )
 }

@@ -1,6 +1,7 @@
 export const Peerr = () => {
     return (
         <img 
+        alt=""
         src="/images/experiences/peerr.svg" 
         width={50} 
         height={50} 
@@ -17,6 +18,7 @@ export const Peerr = () => {
 export const Thatpart = () => {
     return (
         <img 
+        alt=""
         src="/images/experiences/thatpart.jpeg" 
         width={50} 
         height={50} 
@@ -31,7 +33,9 @@ export const Thatpart = () => {
 
 export const Krowd9 = () => {
     return (
-        <img src="/images/experiences/krowd9.jpeg" 
+        <img 
+        src="/images/experiences/krowd9.jpeg" 
+        alt=""
         width={50} 
         height={50} 
         style={{
@@ -45,7 +49,9 @@ export const Krowd9 = () => {
 
 export const Bigsmall = () => {
     return (
-        <img src="/images/experiences/bigsmall.png" 
+        <img 
+        src="/images/experiences/bigsmall.png" 
+        alt=""
         width={50} 
         height={50} 
         style={{
