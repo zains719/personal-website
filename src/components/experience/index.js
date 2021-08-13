@@ -4,13 +4,18 @@ import 'react-vertical-timeline-component/style.min.css'
 import './Experience.scss'
 import { Experiences } from '../../data/experiences';
 
+const isMobile = () => {
+    return window.innerWidth < 1200
+}
 
 const Experience = () => {
     return (
         <div className="experience-container" id="experience">
             <h1>Experience</h1>
             <div className="vericalChanging">
-                <VerticalTimeline>
+                <VerticalTimeline
+                animate={!isMobile()}
+                >
                     {Experiences.map((experience) => {
                         return (
                         <VerticalTimelineElement className="vertical-timeline-element" icon={experience.icon} >

@@ -1,10 +1,13 @@
 import './About.scss'
 import { motion, useViewportScroll, useTransform } from "framer-motion"
   
+const isMobile = () => {
+    return window.innerWidth < 1400
+}
 
 const About = () => {
     const { scrollYProgress } = useViewportScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1.6]);
+    const scale = useTransform(scrollYProgress, [0, 1], !isMobile() ? [0.8, 1.6] : [0.7, 1.2]);
 
     return (
         <motion.div className="about" id="about">
