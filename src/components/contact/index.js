@@ -11,12 +11,18 @@ const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
+    const [submitted, setSubmitted] = useState(false)
+
+    const handleSubmit = () => {
+        document.getElementById('my_form').submit()
+        setSubmitted(true)
+    }
 
     return (
         <div className="contact-section">
             <div class="contact-container">
                 <h2>Contact Me</h2>
-                <form action="https://formsubmit.co/zain.14saleem@gmail.com" method="POST">
+                <form action="https://formsubmit.co/zain.14saleem@gmail.com" method="POST" id="my_form">
                     <div class="user-box">
                         <input 
                         type="text" 
@@ -37,21 +43,24 @@ const Contact = () => {
                             <label>Email</label>
                         )}                    </div>
                     <div class="user-box">
-                        <input 
-                        type="text" 
+                        <textarea 
                         name="message" 
                         onChange={(e) => setMessage(e.target.value)}
                         />
                         {_.isEmpty(message) && (
                             <label>Message</label>
-                        )}                    </div>
-                    <a href="/">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <input type='submit' value="Submit" />
-                    </a>
+                        )}                    
+                    </div>
+                    <div className='bottom-container'>
+                        <a onClick={handleSubmit}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Submit
+                        </a>
+                    <p className={submitted ? 'p-showing' : 'p-hidden'}>Thanks for getting in contact!</p>
+                    </div>
                 </form>
             </div>     
             <div className="socials">
