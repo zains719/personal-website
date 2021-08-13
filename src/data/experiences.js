@@ -5,10 +5,10 @@ export const Experiences = [
         title: "Peerr",
         role: "Software Engineer Intern (August 2021 - September 2021)",
         description: [
-            "Peerr is an online learning start up, geared towards peer to peer lerning through interactive, custom made quizzes.",
-            "At Perrr, I built a B to C product constructing the front and backend of the web application. This involved utilising React and Next js, along with Firebase to support database storage and user authentiaction.",
-            "This allowed me to fully discover the ins and outs of Firebase and experience working with it's NoSQL Firestore database.",
-            "I also utilised third party platforms such as Mailchimp and Sendgrid to implement different features within the web app."
+            "Peerr is a social online learning platform, geared towards peer to peer learning through interactive, custom made quizzes.",
+            "At Perrr, I collaborated in a team of 5 to deliver the MVP in preparation for the King's 20 Accelerator Programme.",
+            "This involved building a B2C product from the ground up, as I worked on both the product build and business strategy.",
+            "I Developed both the front and backend of the web application using React and Next js, with firebase serving as a NoSql database and authentication provider."
         ],
         link: "https://peerr.io/",
         icon: <Peerr />
@@ -18,10 +18,9 @@ export const Experiences = [
         role: "Software Engineer Intern (June 2021 - August 2021)",
         description: [
             "Thatpart is a podcast media platform, that facilitates saving and sharing podcast clips through the ease of a screenshot!",
-            "I assisted the development of the web application, by revamping different pages using React and Next js.",
-            "Using Three js, I was able to create unique video templates programatically, for the new thatpart studio.",
-            "Executed data science related tasks, e.g: building self generating podcast clips for users through NLP Python libraries - involving key word, text summarisation etc",
-            "Also participated in several client calls and marketing strategy meetings aimed to increase user acquisition."
+            "During the internship, I developed web and app features, furthering my React and Next js proficiency.",
+            "Using Remotion and Three js, I also programmatically created unique video templates for the new Thatpart studio, a Saas product providing video creation for podcasters.",
+            "I also implemented an internal tool for pre-generating podcast clips - using NLP python libraries to extract and analyse data from the RSS feeds of podcasts.",
         ],
         link: "https://thatpart.co/",
         icon: <Thatpart />
@@ -31,10 +30,8 @@ export const Experiences = [
         role: "Software Engineer Intern (June 2019 - August 2019)",
         description: [
             "Big Small is digital creative consultancy.",
-            "Worked alongside senior web developers on building the companies new web application.",
-            "Participated in the design of web page components utilising Sketch and Photoshop.",
-            "Contributed creative ideas in strategy and design brainstorming sessions based around improving user experience.",
-            "Had the opportunity to work directly with clients and discuss real business problems.",
+            "I worked alongside senior web developers to deliver product websites for clients - developing my javascript and AngularJS skills.",
+            "Through assisting in the design and functionality of web pages, I was able to gain experience using Sketch and Photoshop.",
         ],
         link: "https://bigsmall.digital/",
         icon: <Bigsmall />
@@ -43,10 +40,9 @@ export const Experiences = [
         title: "Krowd 9",
         role: "Software Engineer Intern (June 2018 - August 2018)",
         description: [
-            "Krowd 9 is a football sports app company that provides the latest updates on football scores and transfer news.",
-            "I worked under a lead iOS engineer on developing the new app release for the ongoing World cup project.",
-            "Evaluated and measured the impacts of these newly developed features.",
-            "Was also familiarised with the backend code base, assisting in development."
+            "Krowd 9 is a football sports app company providing the latest footballing scores and news.",
+            "I worked under a lead iOS engineer on the ongoing World cup project.",
+            "This involved developing new product features using Xcode and Swift - e.g: providing and displaying the new World Cup squads for each match fixture.",
         ],
         link: "http://www.krowd9.com/",
         icon: <Krowd9 />

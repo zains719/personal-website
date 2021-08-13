@@ -17,12 +17,13 @@ const About = () => {
                 }} 
                 />
                 <div className="text-container">
-                    <p>Hi my name is Zain. I am currently studying a BSc in Computer Science at University College London (1st year) and have a great passion for technology.
+                    <p>
+                        Hi, my name is Zain. I am currently pursuing a BSc in Computer Science at University College London (1st year) and have a great passion for technology.
                         <br /> <br />
-                        Whilst studying for my degree, I have also interned at different start ups - helping translate innovative ideas into products that makes waves in their industry.
-                        These experiences has given me a root level exposure of both building B to C products and then taking them to market.  
+                        Whilst studying for my degree, I have also interned at different startups - helping translate innovative ideas into products that make waves in their industry. 
+                        These experiences have given me a root level exposure to building B2C products and then taking them to market.
                         <br /> <br />
-                        Beyond the life of coding, I am also a Sports enthusiast, sharing great interests in football, MMA and boxing amongst many others.
+                        Beyond the life of coding, I am also a Sports enthusiast, sharing great interests in football, MMA and boxing amongst many others 
                     </p>
                 </div>
             </div>
