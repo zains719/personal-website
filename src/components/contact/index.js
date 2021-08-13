@@ -52,13 +52,13 @@ const Contact = () => {
                         )}                    
                     </div>
                     <div className='bottom-container'>
-                        <a onClick={handleSubmit}>
+                        <button onClick={handleSubmit}>
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                             Submit
-                        </a>
+                        </button>
                     <p className={submitted ? 'p-showing' : 'p-hidden'}>Thanks for getting in contact!</p>
                     </div>
                 </form>
