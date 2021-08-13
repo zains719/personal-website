@@ -1,6 +1,5 @@
 .hero {
   display: flex;
-  width: 100vh;
   height: 100vh;
 
   .content {
@@ -23,7 +22,7 @@
       color: #ff522c;
       border: 3px solid #ff522c;
       font-size: larger;
-      transition: 0.5s;
+      transition: box-shadow 0.5s, background-color 0.5s;
 
       &:hover {
         cursor: pointer;
@@ -44,4 +43,18 @@
   height: 100%;
   width: 100%;
   z-index: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .button {
+      left: 6%;
+      margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+  .button {
+    left: 6%;
+    margin-top: 300px;
+  }
 }

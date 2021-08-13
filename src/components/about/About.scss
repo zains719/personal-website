@@ -12,21 +12,37 @@
     }
 
     .content {
+        padding-left: 20px;
+        padding-right: 40px;
         display: flex;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
-        width: 1550px;
 
         img {
             margin-right: 50px;
         }
 
         .text-container {
-            width: 1000px;
-            margin-left: 50px;
+            width: fit-content;
+            max-width: 1000px;
         }
     }
+}
 
+@media screen and (max-width: 1400px) {
+    .about
+     {
+         .content {
+             display: grid;
+             place-items: center;
+
+             img {
+                 margin-top: -40px;
+                 margin-right: 0;
+             }
+             
+         }
+     }
 }
