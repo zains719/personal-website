@@ -1,8 +1,5 @@
 import "./hero.scss"
-import BouncyTitle from "./bouncyTitle"
-import Text from "./text"
 import { Link } from 'react-scroll';
-import { useEffect, useState } from 'react'
 import { motion } from "framer-motion"
 
 const buttonVariants = {
@@ -13,28 +10,25 @@ const buttonVariants = {
         opacity: 1,
         transition: {
             duration: 3,
-            delay: 8,
+            delay: 3,
         },
     }
 }
 
-const Hero = () => {
-    const title = "Zain Saleem"
-
-    const [showText, setShowText] = useState(false)
-
-    useEffect(() => {
-        setTimeout(() => {
-            setShowText(true)
-        }, 4000)
-    }, [])
-
+const Hero = () => {    
     return (
         <div className="hero">
-            <div className="particles-js" id='particles-js'/>
+            {/* <div className="particles-js" id='particles-js'/> */}
             <div className="content">
-                <BouncyTitle>{ title }</BouncyTitle>
-                {showText && <Text />}
+                <h1 className="title">hi, <span>zain</span> here.</h1>
+                <div className="subcontent">
+                    <p className="subheading">I create stuff sometimes.</p>
+                    <p className="caption">
+                        I'm a software engineer based in London. I am an avid programmer
+                        sharing great interests in full-stack development, artifical intelligence, 
+                        human computer interaction and everything tech.
+                    </p>
+                </div>
                 <Link 
                 to="about" 
                 smooth 

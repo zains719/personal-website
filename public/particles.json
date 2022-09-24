@@ -1,10 +1,11 @@
 {
+    "height": "50vh",
     "particles": {
       "number": {
         "value": 80,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 1200
         }
       },
       "color": {
@@ -13,8 +14,8 @@
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
-          "color": "#FF522C"
+          "width": 1,
+          "color": "#ff522c"
         },
         "polygon": {
           "nb_sides": 5
@@ -44,7 +45,7 @@
         "enable": true,
         "distance": 150,
         "color": "#FF522C",
-        "opacity": 0.4,
+        "opacity": 0.6,
         "width": 1
       },
       "move": {

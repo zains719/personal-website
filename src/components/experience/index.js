@@ -11,7 +11,7 @@ const isMobile = () => {
 const Experience = () => {
     return (
         <div className="experience-container" id="experience">
-            <h1>Experience</h1>
+            <h1><span>/</span> Experience</h1>
             <div className="vericalChanging">
                 <VerticalTimeline
                 animate={!isMobile()}

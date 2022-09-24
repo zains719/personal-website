@@ -1,27 +1,93 @@
 .hero {
   display: flex;
   height: 100vh;
+  background-color: black;
 
   .content {
-    z-index: 1;
+    margin-top: 275px;
+    margin-left: 275px;
+    // position: absolute;
+    display: flex;
+    flex-direction: column;
     width: fit-content;
-    height: 250px;
-    margin-top: 300px;
-    position: absolute;
+    
 
+    .title {
+      margin: 0;
+      color: #fa9d88;
+      font-weight: 700;
+      font-size: 86px;
+      margin-bottom: -80px;
+      background-color: black;
+      width: fit-content;
+      position: relative;
+
+      span {
+        color: #ff6846;
+      }
+
+      &::after {
+        content: "|";
+        position: absolute;
+        right: 0;
+        width: 100%;
+        color: #ff522c;
+        background: black;
+        animation: typing 3s steps(16) forwards,
+        caret 1s infinite;
+      }
+
+      // Animation
+      @keyframes typing {
+        to { width: 0 }
+      }
+      @keyframes caret {
+        50% { color: transparent }
+      }
+    }
+
+    .subcontent {
+      animation-duration: 2s;
+      animation-fill-mode: both;
+      animation-name: fadeInBottom;
+      color: #fdd5cc;
+
+      @keyframes fadeInBottom {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        to { opacity: 1 }
+      }
+
+      .subheading {
+        font-size: 48px;
+        font-weight: 300;
+        margin: 0;
+        margin-bottom: -20px;
+      }
+  
+      .caption {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        width: 700px;
+        line-height: 33px;
+        word-spacing: 10px;
+      }
+    }
+    
     .button {
-      right: -35%;
-      top: 21%;
-      position: absolute;
-      width: 200px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      line-height: 0;
+      margin-top: 40px;
+      padding: 20px 30px 20px 30px;
       border: 0;
+      border-radius: 7px;
       background-color: transparent;
-      font-family: "Recursive", sans-serif;
+      font-family: 'NTR', sans-serif;
       color: #ff522c;
       border: 3px solid #ff522c;
-      font-size: larger;
+      font-size: 22px;
       transition: box-shadow 0.5s, background-color 0.5s;
 
       &:hover {
@@ -36,10 +102,10 @@
 }
 
 .particles-js {
-  background-color: rgb(26, 26, 26);
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-color: rgb(0, 0, 0);
+  // position: absolute;
+  // top: 0;
+  // left: 0;
   height: 100%;
   width: 100%;
   z-index: 0;

@@ -5,7 +5,7 @@ import { projects } from '../../data/projects'
 const Projects = () => {
     return (
         <div className="project-container">
-            <h1>Projects</h1>
+            <h1><span>/</span> projects</h1>
             <div className="cards">
             {projects.map((project, index) => {
                 return (

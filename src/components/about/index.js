@@ -11,9 +11,9 @@ const About = () => {
 
     return (
         <motion.div className="about" id="about">
-            <h1>About</h1>
+            <h1><span>/</span> about me</h1>
             <div className='content'>
-                <motion.img src='/images/me.jpg' width={600} height={800} 
+                <motion.img src='/images/me.jpg' width={400} height={550} 
                 style={{
                     scaleY: scale,
                     scaleX: scale,
@@ -21,12 +21,17 @@ const About = () => {
                 />
                 <div className="text-container">
                     <p>
-                        Hi, my name is Zain. I am currently pursuing a BSc in Computer Science at University College London (1st year) and have a great passion for technology.
+                        Hi, my name is Zain. I am currently pursuing a MEng in Computer Science at University College London 
+                        (3rd year) and have a great passion for application development and data science. I am always keen 
+                        to learn new technologies and work on exciting, challenging projects.
                         <br /> <br />
-                        Whilst studying for my degree, I have also interned at different startups - helping translate innovative ideas into products that make waves in their industry. 
-                        These experiences have given me a root level exposure to building B2C products and then taking them to market.
+                        Whilst studying for my degree, I have also interned at both different startups and tech giants - 
+                        helping translate innovative ideas into products that make waves in their industry. These experiences 
+                        have provided me with a root-level exposure to building B2C products and then taking them to market, 
+                        whilst being able to effectively communicate and collaborate with team members.
                         <br /> <br />
-                        Beyond the life of coding, I am also a Sports enthusiast, sharing great interests in football, MMA and boxing amongst many others 
+                        Beyond the life of coding, I am also a Sports enthusiast, sharing great interests in football, MMA 
+                        and boxing amongst many others.
                     </p>
                 </div>
             </div>
