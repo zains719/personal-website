@@ -6,10 +6,11 @@ export const Experiences = [
         role: "Software Engineer Intern",
         date: "JUN 2022 - SEPT 2022",
         description: [
-            "Peerr is a social online learning platform, geared towards peer to peer learning through interactive, custom made quizzes.",
-            "At Perrr, I collaborated in a team of 5 to deliver the MVP in preparation for the King's 20 Accelerator Programme.",
-            "This involved building a B2C product from the ground up, as I worked on both the product build and business strategy.",
-            "I Developed both the front and backend of the web application using React and Next js, with firebase serving as a NoSql database and authentication provider."
+            "I developed an end-to-end streaming pipeline for translating Reflex Triggers - these are defined patterns on aggregated data that drive action alerts.",
+            "Using Spark Structured Streaming I implemented both stateless and stateful aggregation triggers, incorporating window and watermarking semantics.",
+            "I delivered a visualisation dashboard, using internal tools, to monitor and assess pipeline results through sending different telemetry metrics.",
+            "This involved utilising different cloud services such as Event Hubs and Azure Synapse to send data to a source more compatible with the streaming fabric.",
+            "This was finalised with end-to-end correctness tests obtained through querying results against original data, using an internal query language."
         ],
         link: "https://www.microsoft.com/en-gb/",
         icon: <Peerr />
