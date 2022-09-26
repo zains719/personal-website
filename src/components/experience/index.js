@@ -44,25 +44,7 @@ const Experience = () => {
                             </div>
                         )
                     })}
-                    {/* {currentExperience.description.map(point => {
-                        return (
-                            <div className="point">
-                                <BiRightArrow className="arrow" size={"18px"}/>
-                                <p>{point}</p>
-                            </div>
-                        )
-                    })} */}
                 </div>
-            </div>
-            <div className="vericalChanging">
-                {/* <VerticalTimeline
-                animate={!isMobile()}
-                >
-                    {Experiences.map((experience) => {
-                        return (
-                        )
-                    })}
-                </VerticalTimeline> */}
             </div>
         </div>
     )
