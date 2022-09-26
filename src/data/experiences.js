@@ -6,6 +6,7 @@ export const Experiences = [
         role: "Software Engineer Intern",
         date: "JUN 2022 - SEPT 2022",
         description: [
+            "The team I worked with was responsible for Microsoft's internal telemtry pipeline.",
             "I developed an end-to-end streaming pipeline for translating Reflex Triggers - these are defined patterns on aggregated data that drive action alerts.",
             "Using Spark Structured Streaming I implemented both stateless and stateful aggregation triggers, incorporating window and watermarking semantics.",
             "I delivered a visualisation dashboard, using internal tools, to monitor and assess pipeline results through sending different telemetry metrics.",
