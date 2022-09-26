@@ -1,4 +1,4 @@
-import { Peerr, Thatpart, Krowd9, Bigsmall } from '../images/experiences';
+import { Peerr, Thatpart, Krowd9 } from '../images/experiences';
 
 export const Experiences = [
     {
@@ -42,17 +42,6 @@ export const Experiences = [
         link: "https://thatpart.co/",
         icon: <Thatpart />
     },
-    // {
-    //     title: "Big Small Digital",
-    //     role: "Software Engineer Intern (June 2019 - August 2019)",
-    //     description: [
-    //         "Big Small is digital creative consultancy.",
-    //         "I worked alongside senior web developers to deliver product websites for clients - developing my javascript and AngularJS skills.",
-    //         "Through assisting in the design and functionality of web pages, I was able to gain experience using Sketch and Photoshop.",
-    //     ],
-    //     link: "https://bigsmall.digital/",
-    //     icon: <Bigsmall />
-    // },
     {
         title: "Krowd9",
         role: "Software Engineer Intern",

@@ -1,6 +1,3 @@
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-
-import 'react-vertical-timeline-component/style.min.css'
 import './Experience.scss'
 import { Experiences } from '../../data/experiences';
 import { useState } from 'react'
@@ -18,7 +15,7 @@ const Experience = () => {
                         {Experiences.map(experience => {
                             return (
                                 <p 
-                                className={experience.title == currentExperience.title ? "current-link" : "link"}
+                                className={experience.title === currentExperience.title ? "current-link" : "link"}
                                 onClick={(e) => setCurrentExperience(experience)}
                                 >
                                     {experience.title.toUpperCase()}
@@ -32,7 +29,7 @@ const Experience = () => {
                     <p className="date">{currentExperience.date}</p>
                     {Experiences.map(experience => {
                         return (
-                            <div className={experience == currentExperience ? "current-experience" : "experience"}>
+                            <div className={experience === currentExperience ? "current-experience" : "experience"}>
                                 {experience.description.map(point=> {
                                     return (
                                         <div className="point">
