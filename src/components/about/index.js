@@ -21,7 +21,7 @@ const About = () => {
                 />
                 <div className="text-container">
                     <p>
-                        Hi, my name is Zain. I am currently pursuing a MEng in Computer Science at University College London 
+                        I am currently pursuing a MEng in Computer Science at University College London 
                         (3rd year) and have a great passion for application development and data science. I am always keen 
                         to learn new technologies and work on exciting, challenging projects.
                         <br /> <br />
@@ -30,7 +30,7 @@ const About = () => {
                         have provided me with a root-level exposure to building B2C products and then taking them to market, 
                         whilst being able to effectively communicate and collaborate with team members.
                         <br /> <br />
-                        Beyond the life of coding, I am also a Sports enthusiast, sharing great interests in football, MMA 
+                        Beyond the life of coding, I am also a sports enthusiast, sharing great interests in football, MMA 
                         and boxing amongst many others.
                     </p>
                 </div>
