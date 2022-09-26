@@ -21,7 +21,7 @@ const Contact = () => {
     return (
         <div className="contact-section">
             <div class="contact-container">
-                <h2>Contact Me</h2>
+                <h2><span>/</span> contact</h2>
                 <form action="https://formsubmit.co/zain.14saleem@gmail.com" method="POST" id="my_form">
                     <div class="user-box">
                         <input 

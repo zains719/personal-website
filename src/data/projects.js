@@ -8,7 +8,7 @@ import { Tetris } from '../images/projects/Tetris'
 export const projects = [
     {
         title: "Peerr",
-        text: "Peerr is an online learning platform for UK medics based upon interactive custom made quizzes. I was able to deliver a B2C product that encapsulates Peerr's vision of socialised learning, which was then part of the King's 20 Accelerator programme. I developed both the front and backend of the application using React and Next js, with firebase serving as a NoSql database and authentication provider.",
+        text: "Peerr is an online learning platform for UK medics based upon interactive custom made quizzes. I was able to deliver a B2C product that encapsulates Peerr's vision of socialised learning, which was then part of the King's 20 Accelerator programme.",
         linkText: "View the current website here!",
         link: "https://peerr.io/",
         svg: <Peerr />,
@@ -22,7 +22,7 @@ export const projects = [
     },
     {
         title: "Fantasy Football Webscraper",
-        text: "Using python web scraping libraries, such as BeautifulSoup, I was able to build a web scraper that extracts footballing statistics for the top-performing players in the Premier League. By hosting my code on Replit, I was able to repeat this extraction weekly and populate the data into excel spreadsheets. These are then emailed to me using SMTP connections, providing me greater insight into which players are more likely to achieve higher scores in Fantasy Football.",
+        text: "Using python web scraping libraries, such as BeautifulSoup, I was able to build a web scraper that extracts footballing statistics for the top-performing players in the Premier League. By hosting my code on Replit, I was able to repeat this extraction weekly and populate the data into excel spreadsheets.",
         linkText: "View the code on my Github!",
         link: "https://github.com/zains719/football-stats-web-scraper",
         svg: <WebScraper />,

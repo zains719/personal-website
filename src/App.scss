@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 
 html,
 body {
@@ -7,11 +7,13 @@ body {
 }
 
 .app {
-    font-family: 'Recursive', sans-serif;
+    font-family: 'NTR', sans-serif;
     height: 100%;
     width: 100%;
+    background-color: black;
 }
 
 input, textarea {
-    font-family: 'Recursive', sans-serif;
+    font-family: 'NTR', sans-serif;
+    color: #fdd5cc;
 }

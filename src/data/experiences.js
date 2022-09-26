@@ -2,8 +2,24 @@ import { Peerr, Thatpart, Krowd9, Bigsmall } from '../images/experiences';
 
 export const Experiences = [
     {
+        title: "Microsoft",
+        role: "Software Engineer Intern",
+        date: "JUN 2022 - SEPT 2022",
+        description: [
+            "The team I worked with was responsible for Microsoft's internal telemtry pipeline.",
+            "I developed an end-to-end streaming pipeline for translating Reflex Triggers - these are defined patterns on aggregated data that drive action alerts.",
+            "Using Spark Structured Streaming I implemented both stateless and stateful aggregation triggers, incorporating window and watermarking semantics.",
+            "I delivered a visualisation dashboard, using internal tools, to monitor and assess pipeline results through sending different telemetry metrics.",
+            "This involved utilising different cloud services such as Event Hubs and Azure Synapse to send data to a source more compatible with the streaming fabric.",
+            "This was finalised with end-to-end correctness tests obtained through querying results against original data, using an internal query language."
+        ],
+        link: "https://www.microsoft.com/en-gb/",
+        icon: <Peerr />
+    },
+    {
         title: "Peerr",
-        role: "Software Engineer Intern (August 2021 - September 2021)",
+        role: "Software Engineer Intern",
+        date: "JUL 2021 - SEPT 2021",
         description: [
             "Peerr is a social online learning platform, geared towards peer to peer learning through interactive, custom made quizzes.",
             "At Perrr, I collaborated in a team of 5 to deliver the MVP in preparation for the King's 20 Accelerator Programme.",
@@ -15,7 +31,8 @@ export const Experiences = [
     },
     {
         title: "Thatpart",
-        role: "Software Engineer Intern (June 2021 - August 2021)",
+        role: "Software Engineer Intern",
+        date: "JUN 2021 - JUL 2021",
         description: [
             "Thatpart is a podcast media platform, that facilitates saving and sharing podcast clips through the ease of a screenshot!",
             "During the internship, I developed web and app features, furthering my React and Next js proficiency.",
@@ -25,23 +42,24 @@ export const Experiences = [
         link: "https://thatpart.co/",
         icon: <Thatpart />
     },
+    // {
+    //     title: "Big Small Digital",
+    //     role: "Software Engineer Intern (June 2019 - August 2019)",
+    //     description: [
+    //         "Big Small is digital creative consultancy.",
+    //         "I worked alongside senior web developers to deliver product websites for clients - developing my javascript and AngularJS skills.",
+    //         "Through assisting in the design and functionality of web pages, I was able to gain experience using Sketch and Photoshop.",
+    //     ],
+    //     link: "https://bigsmall.digital/",
+    //     icon: <Bigsmall />
+    // },
     {
-        title: "Big Small Digital",
-        role: "Software Engineer Intern (June 2019 - August 2019)",
-        description: [
-            "Big Small is digital creative consultancy.",
-            "I worked alongside senior web developers to deliver product websites for clients - developing my javascript and AngularJS skills.",
-            "Through assisting in the design and functionality of web pages, I was able to gain experience using Sketch and Photoshop.",
-        ],
-        link: "https://bigsmall.digital/",
-        icon: <Bigsmall />
-    },
-    {
-        title: "Krowd 9",
-        role: "Software Engineer Intern (June 2018 - August 2018)",
+        title: "Krowd9",
+        role: "Software Engineer Intern",
+        date: "JUN 2018 - AUG 2018",
         description: [
             "Krowd 9 is a football sports app company providing the latest footballing scores and news.",
-            "I worked under a lead iOS engineer on the ongoing World cup project.",
+            "I shadowed  a lead iOS engineer on the ongoing World cup project for the new upcoming release.",
             "This involved developing new product features using Xcode and Swift - e.g: providing and displaying the new World Cup squads for each match fixture.",
         ],
         link: "http://www.krowd9.com/",
