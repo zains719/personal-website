@@ -2,10 +2,17 @@ import { WebScraper } from '../images/projects/WebScraper'
 import { Peerr } from '../images/projects/Peerr'
 import { Computer } from '../images/projects/Computer'
 import { Inventory } from '../images/projects/Inventory'
-import { Plant } from "../images/projects/Plant"
+import { Virus } from "../images/projects/Virus"
 import { Tetris } from '../images/projects/Tetris'
 
 export const projects = [
+    {
+        title: "Infuenza Surveillance Using Search Queries",
+        text: "My MEng degree culminated with my thesis which was based on both nowcasting and forecasting Influenza rates within England using web search queries. This involved employing various machine learning algorithms from regularised linear models to more complex neural network architectures.",
+        linkText: "View the code and thesis report on my Github!",
+        link: "https://github.com/zains719/final_year_project",
+        svg: <Virus />,
+    },
     {
         title: "Peerr",
         text: "Peerr is an online learning platform for UK medics based upon interactive custom made quizzes. I was able to deliver a B2C product that encapsulates Peerr's vision of socialised learning, which was then part of the King's 20 Accelerator programme.",
@@ -41,11 +48,11 @@ export const projects = [
         link: "https://github.com/zains719/Java-Web-Application",
         svg: <Inventory />,
     },
-    {
-        title: "Bioreactor Vaccine Plant",
-        text: "This was a collaborated project to produce a Bioreactor vaccine plant for Tuberculosis. This required us to code an Arduino and PID control system to control the different environment variables. This was then synced up with a user interface that was programmed in Python using Tkinter.",
-        linkText: "",
-        link: "",
-        svg: <Plant />,
-    },
+    // {
+    //     title: "Bioreactor Vaccine Plant",
+    //     text: "This was a collaborated project to produce a Bioreactor vaccine plant for Tuberculosis. This required us to code an Arduino and PID control system to control the different environment variables. This was then synced up with a user interface that was programmed in Python using Tkinter.",
+    //     linkText: "",
+    //     link: "",
+    //     svg: <Plant />,
+    // },
 ]

@@ -21,17 +21,16 @@ const About = () => {
                 />
                 <div className="text-container">
                     <p>
-                        I am currently pursuing a MEng in Computer Science at University College London 
-                        (3rd year) and have a great passion for application development and data science. I am always keen 
+                        I have recently graduated, obtaining an MEng in Computer Science at University College London and will
+                        soon begin a full time software engineer role at Bloomberg. I am always keen 
                         to learn new technologies and work on exciting, challenging projects.
                         <br /> <br />
-                        Whilst studying for my degree, I have also interned at both different startups and tech giants - 
-                        helping translate innovative ideas into products that make waves in their industry. These experiences 
-                        have provided me with a root-level exposure to building B2C products and then taking them to market, 
-                        whilst being able to effectively communicate and collaborate with team members.
+                        Throughout my academic journey, I've been lucky to intern with both startups and big tech companies. 
+                        These experiences have given me a taste of what it's like to build both B2C and B2B products. 
+                        Along the way, I've picked up great skills in bringing ideas to life and collaborating effectively with teams.
                         <br /> <br />
-                        Beyond the life of coding, I am also a sports enthusiast, sharing great interests in football, MMA 
-                        and boxing amongst many others.
+                        Beyond the life of coding, I'm an avid sports enthusiast with a great passion for football, 
+                        MMA and boxing, among others.
                     </p>
                 </div>
             </div>

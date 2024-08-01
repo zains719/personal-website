@@ -11,10 +11,10 @@ import Contact from './components/contact'
 const { particlesJS } = window;
 
 class App extends Component {
-  componentDidMount() {
-    particlesJS.load('particles-js', '/particles.json', () => {
-    })
-  }
+  // componentDidMount() {
+  //   particlesJS.load('particles-js', '/particles.json', () => {
+  //   })
+  // }
 
   render() {
     return (

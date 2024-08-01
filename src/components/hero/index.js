@@ -25,7 +25,7 @@ const Hero = () => {
                     <p className="subheading">I create stuff sometimes.</p>
                     <p className="caption">
                         I'm a software engineer based in London. I am an avid programmer
-                        sharing great interests in full-stack development, artifical intelligence, 
+                        sharing great interests in full-stack development, machine learning, 
                         human computer interaction and everything tech.
                     </p>
                 </div>
