@@ -13,7 +13,7 @@ const About = () => {
         <motion.div className="about" id="about">
             <h1><span>/</span> about me</h1>
             <div className='content'>
-                <motion.img src='/images/me.jpg' width={!isMobile() ? 400 : 500} height={!isMobile() ? 550: 650} 
+                <motion.img src='/images/me2.jpeg' width={!isMobile() ? 453.6 : 600} height={!isMobile() ? 554.05: 700} 
                 style={{
                     scaleY: scale,
                     scaleX: scale,
